@@ -188,3 +188,106 @@
     margin-bottom: 5px;
 
 }
+
+.contact-label{
+  background: #f1f6f5;
+  width: 100%;
+ text-align: center;
+ padding: 30px;
+}
+.contact-label h1{
+  font-weight: 400;
+  
+}
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:100px ;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.side{
+  display: flex;
+}
+.input{
+  margin-left: 10px;
+  padding: 20px;
+}
+.input input{
+  padding: 4px 50px;
+}
+.input p{
+  margin-bottom: 5px;
+}
+.side .input input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding:5px 70px;
+}
+ .side .input input:focus,
+ .side .input input:hover
+{
+ border-color:blue ; 
+}
+
+.ap  select:focus,
+.ap  select:hover
+{
+border-color:blue ; 
+}
+
+.ap select{
+  width: 95%;
+  margin-left:20px ;
+  height: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding:0 100px; 
+}
+.ap p{
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.textarea textarea{
+  width: 95%;
+  margin-left:20px ;
+  height: 140px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding:0 100px; 
+  margin-top: 20px;
+}
+
+
+.textarea textarea:focus,
+.textarea textarea:hover{
+  border-color: blue;
+}
+.btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btn1 a{
+  text-decoration: none;
+  color: white;
+  background: #227c70;
+  padding: 10px 40px;
+  border-radius:5px ;
+}
+#pd{
+  padding:   10px;
+  font-size: 20px;
+  font-weight: bold;
+}
